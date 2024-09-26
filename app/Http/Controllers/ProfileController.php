@@ -9,7 +9,7 @@ class ProfileController extends Controller
 {
     public function profile($nama= ''){
         $data = [
-            'nama' => $nama,
+            'nama' => 'Anisa Mitha Safitri',
             'kelas' => 'A',
             'npm' => '2257051022'
         ];
